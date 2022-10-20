@@ -1,0 +1,9 @@
+{
+    "name": "WebPusheTest",
+    "short_name": "WebPusheTest",
+    "theme_color": "#c0c0c0",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/"
+}
