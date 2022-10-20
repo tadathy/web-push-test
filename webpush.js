@@ -1,6 +1,6 @@
 self.addEventListener('load', async () => {
   if ('serviceWorker' in navigator) {
-    window.sw = await navigator.serviceWorker.register('service-worker.js', {scope: '/'});
+    window.sw = await navigator.serviceWorker.register('service-worker.js', {scope: '/web-push-test/'});
   }
 });
 
