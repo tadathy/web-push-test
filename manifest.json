@@ -8,9 +8,14 @@
     "start_url": "/",
     "icons": [
         {
-            "src": "appicon.png",
+            "src": "appicon192.png",
             "type": "image/png",
-            "sizes": "180x180"
+            "sizes": "192x192"
+        },
+        {
+            "src": "appicon512.png",
+            "type": "image/png",
+            "sizes": "512x512"
         }
     ]
 }
