@@ -4,18 +4,20 @@
     "theme_color": "#c0c0c0",
     "background_color": "#ffffff",
     "display": "standalone",
-    "scope": "/",
-    "start_url": "/",
+    "scope": "/web-push-test/",
+    "start_url": "https://tadathy.github.io/web-push-test/",
     "icons": [
         {
             "src": "appicon192.png",
             "type": "image/png",
-            "sizes": "192x192"
+            "sizes": "192x192",
+            "purpose": "any maskable"
         },
         {
             "src": "appicon512.png",
             "type": "image/png",
-            "sizes": "512x512"
+            "sizes": "512x512",
+            "purpose": "any maskable"
         }
     ]
 }
