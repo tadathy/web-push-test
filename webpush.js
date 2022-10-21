@@ -35,6 +35,7 @@ async function allowWebPush() {
     userAuthToken: btoa(String.fromCharCode.apply(null, new Uint8Array(token)))
   };
   console.log(request);
+  document.write(request);
 }
 
 function urlB64ToUint8Array (base64String) {
