@@ -8,6 +8,7 @@ self.addEventListener('push', function (event) {
     icon: '',
     badge: ''
   };
+  navigator.setAppBadge(99);
   event.waitUntil(self.registration.showNotification(title, options));
 });
 
