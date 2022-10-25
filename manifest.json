@@ -19,11 +19,5 @@
             "sizes": "512x512",
             "purpose": "any maskable"
         }
-    ],
-    "protocol_handlers" : [
-        {
-            "protocol": "pwa+test",
-            "url": "index.php?test=%s"
-        }
     ]
 }
