@@ -1,5 +1,5 @@
 self.addEventListener('push', function (event) {
-  const payload = event.data;
+  const payload = event.data.json();
   const title = 'WebPush Test';
   const options = {
     body: payload.body,
