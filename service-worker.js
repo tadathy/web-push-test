@@ -4,11 +4,9 @@ self.addEventListener('push', function (event) {
   const options = {
     body: payload.body,
     data: payload.data,
-    tag: title,
-    icon: '',
-    badge: ''
+    tag: Math.random().toString(32).substring(2)
   };
-  navigator.setAppBadge(99);
+  //navigator.setAppBadge(99);
   event.waitUntil(self.registration.showNotification(title, options));
 });
 
