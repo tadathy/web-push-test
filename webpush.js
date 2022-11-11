@@ -27,6 +27,7 @@ async function allowWebPush() {
     alert(e);
     return false;
   }
+  console.log(subscription);
   const key = subscription.getKey('p256dh');
   const token = subscription.getKey('auth');
   const request = {
