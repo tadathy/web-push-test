@@ -15,7 +15,8 @@ async function allowWebPush() {
       return false;
     }
   }
-  const appServerKey = 'BPC0LjhBlaykMyraxwasUzV9BoxCK8iQyhAjb_pKLvtA86ByX6Lz7uy0TB1-H18rMPIhwZFYBARJQhm-2O4ewtQ';
+  //const appServerKey = 'BPC0LjhBlaykMyraxwasUzV9BoxCK8iQyhAjb_pKLvtA86ByX6Lz7uy0TB1-H18rMPIhwZFYBARJQhm-2O4ewtQ';
+  const appServerKey = 'BA88DgjIo7vV8qsQ3Jc2MojUQ68dq3ALL4JDCMwWY7d7K5XCNf7PBGE4WxkM-txhh3I7_-m5evv74v0aAv-0NhI';
   const applicationServerKey = urlB64ToUint8Array(appServerKey);
   let subscription = undefined;
   try {
